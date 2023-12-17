@@ -12,7 +12,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  // createCanvas(600, 600);
+  setCanvasContainer('canvas', 600, 600);
   gravity = createVector(0, 0.03);
   background('#12192D');
 }
