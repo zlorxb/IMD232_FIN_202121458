@@ -4,7 +4,6 @@ let snowflakeImages = [];
 let gravity;
 
 function preload() {
-  // PNG 파일 로드
   snowflakeImages.push(loadImage('snowflake1.png'));
   snowflakeImages.push(loadImage('snowflake2.png'));
   snowflakeImages.push(loadImage('snowflake3.png'));
@@ -12,7 +11,6 @@ function preload() {
 }
 
 function setup() {
-  // createCanvas(600, 600);
   setCanvasContainer('canvas', 600, 600);
   gravity = createVector(0, 0.03);
   background('#12192D');
@@ -123,7 +121,6 @@ class Particle {
     // rotate(this.rotationA);
     rotate(this.angle);
 
-    // PNG 이미지 적용
     imageMode(CENTER);
     image(this.image, 0, 0, this.diameter, this.diameter);
 
