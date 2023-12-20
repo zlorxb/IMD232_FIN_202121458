@@ -1,3 +1,7 @@
+// Original Code from: week6: Particle System assignment step1, https://editor.p5js.org/codingtrain/sketches/UMUPBVuH5
+// Daniel Shiffman
+// http://codingtra.in
+
 let particleArray = [];
 let snowflakeImages = [];
 
